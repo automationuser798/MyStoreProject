@@ -6,7 +6,7 @@
   
   
   
- <build>
+<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -32,46 +32,17 @@
 				
 			</plugin>
 
+			
 
-			<plugin>
-				<groupId>net.masterthought</groupId>
-				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>5.0.0</version>
-
-<!-- 				<executions>
-					<execution>
-						<id>execution</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-						<configuration>
-							<projectName>MyStoreAutomation Cucumber Reports</projectName> Replace with project name
-							<outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
-							<cucumberOutput>target/cucumber-reports/cucumber.json</cucumberOutput>
-							<buildNumber>1</buildNumber>
-							<parallelTesting>false</parallelTesting>
-							<skip>false</skip>
-							<inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
-							<jsonFiles> supports wildcard or name pattern
-								<param>**/*.json</param>
-							</jsonFiles> optional, defaults to outputDirectory if not specified
-							<classificationDirectory>${project.build.directory}/cucumber-reports</classificationDirectory>
-							<checkBuildResult>false</checkBuildResult>
-						</configuration>
-					</execution>
-				</executions>
- -->
-
-
-			</plugin>
 
 		</plugins>
 	</build>
-
-
-	<dependencies>
-
+				
+				
+				
+ <dependencies>
+ 
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 	<dependency>
     	<groupId>io.cucumber</groupId>
     	<artifactId>cucumber-core</artifactId>
@@ -107,81 +78,45 @@
 	   <artifactId>selenium-java</artifactId> 
 	   <version>3.4.0</version> 
 	</dependency>
-		
-
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
-		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>3.8.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>6.10.4</version>
-			<scope>test</scope>
-		</dependency>
-
-
-<dependency>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
     	<groupId>log4j</groupId>
     	<artifactId>log4j</artifactId>
     	<version>1.2.17</version>
 	</dependency>
-		<!-- Extent Reports 6 Plugin -->
-		
-			<dependency>
-    	<groupId>io.cucumber</groupId>
-    	<artifactId>cucumber-core</artifactId>
-    	<version>2.3.1</version>
-	</dependency>
-	
-	<dependency>
-		<groupId>info.cukes</groupId>
-	    <artifactId>cucumber-core</artifactId>
-	    <version>1.1.8</version>
-	    <scope>test</scope>
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 	<dependency>
     	<groupId>com.relevantcodes</groupId>
     	<artifactId>extentreports</artifactId>
     	<version>2.41.2</version>
 	</dependency>
-
 <dependency>
-	    <groupId>io.cucumber</groupId>
-	    <artifactId>cucumber-java</artifactId>
-	    <version>2.3.1</version>
-	    <scope>test</scope>
-	    </dependency>
-		<dependency>
-			<groupId>tech.grasshopper</groupId>
-			<artifactId>extentreports-cucumber6-adapter</artifactId>
-			<version>2.8.2</version>
-			<exclusions>
-				<exclusion>
-					<groupId>io.cucumber</groupId>
-					<artifactId>cucumber-java</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>io.cucumber</groupId>
-					<artifactId>cucumber-core</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.1</version>
+    </dependency>
+    <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <version>3.8.1</version>
+  <type>maven-plugin</type>
+</dependency>
+    <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>3.0.0-M5</version>
+  <type>maven-plugin</type>
+</dependency>
+    
+  </dependencies>
 
 
-
-	</dependencies>
 
 
 
