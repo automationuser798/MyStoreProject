@@ -107,3 +107,32 @@ Session ID: 7016d52c97f6b47ab76c2a993fa31d72
 2021-09-21 19:04:52 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
 2021-09-21 19:04:59 INFO  Login:126 - Step:4 PASSED- user enter testuser04@.com as email
 2021-09-21 19:05:01 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2021-09-21 21:07:59 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 21:08:06 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 21:08:13 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 21:08:20 INFO  Login:132 - Step:4 FAILED- user Failed to enter Emailno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email_create']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir10936_1032977670}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53290}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.82, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 761bd8e248ae12d6c103df45ac05a477
+*** Element info: {Using=xpath, value=//input[@id='email_create']}
+2021-09-21 21:10:07 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 21:10:14 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 21:10:27 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 21:10:34 INFO  Login:126 - Step:4 PASSED- user enter testuser04@.com as email
+2021-09-21 21:10:36 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2021-09-21 21:13:55 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 21:14:02 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 21:14:04 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 21:14:11 INFO  Login:132 - Step:4 FAILED- user Failed to enter Emailno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email_create']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir6128_84880276}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54606}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.82, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b91bd3d9665eef7117f32669fe260e71
+*** Element info: {Using=xpath, value=//input[@id='email_create']}
