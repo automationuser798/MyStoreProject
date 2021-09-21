@@ -1,0 +1,77 @@
+2021-09-21 11:59:32 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 11:59:39 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 11:59:44 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 11:59:51 INFO  Login:126 - Step:4 PASSED- user enter testb010ll4@gmail.com as email
+2021-09-21 11:59:53 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2021-09-21 11:59:55 INFO  Login:151 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Amit\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23a8d2e993563365fe17d3eb8d1bb70e
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+2021-09-21 12:00:11 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 12:00:18 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 12:00:22 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 12:05:45 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 12:05:52 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 12:05:57 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 12:06:04 INFO  Login:126 - Step:4 PASSED- user enter testb010ll4@gmail.com as email
+2021-09-21 12:06:06 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2021-09-21 12:06:08 INFO  Login:145 - Step:6 PASSED- user clicks on Title
+2021-09-21 12:06:10 INFO  Login:165 - Step:7 PASSED- user enter Amit as firstname
+2021-09-21 12:06:11 INFO  Login:185 - Step:8 PASSED- user enter Patil as lastname
+2021-09-21 12:06:13 INFO  Login:205 - Step:9 PASSED- user enter windows@123 as password
+2021-09-21 12:06:14 INFO  Login:225 - Step:10 PASSED- user enter Yahoo as company
+2021-09-21 12:06:16 INFO  Login:245 - Step:11 PASSED- user enter First Lane Narhe as address
+2021-09-21 12:06:17 INFO  Login:265 - Step:12 PASSED- user enter Romulus as city
+2021-09-21 12:06:19 INFO  Login:287 - Step:13 PASSED- user selects City as Alabama
+2021-09-21 12:06:19 INFO  Login:305 - Step:14 PASSED- user enter 35006 as zip
+2021-09-21 12:06:21 INFO  Login:327 - Step:15 PASSED- user selects country as United States
+2021-09-21 12:06:22 INFO  Login:346 - Step:16 PASSED- user enter 9898989898 as mobile
+2021-09-21 12:06:24 INFO  Login:366 - Step:17 PASSED- user enter Test Address as aliasadd
+2021-09-21 12:06:27 INFO  Login:386 - Step:18 PASSED- user clicks on Register button
+2021-09-21 12:06:28 INFO  Login:407 - Step:19 PASSED- user is on the MyAccountPage
+2021-09-21 12:14:31 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 12:14:38 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 12:14:50 INFO  Login:73 - Step:3 FAILED- user is NOT on the application login page
+Exception Details: chrome not reachable
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Amit\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 151db89d0ae1c7fcce0308c32fdf2c84
+2021-09-21 12:53:09 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 12:53:16 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 12:53:30 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 12:53:37 INFO  Login:126 - Step:4 PASSED- user enter testb010ll4@gmail.com as email
+2021-09-21 12:53:39 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2021-09-21 12:53:41 INFO  Login:151 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Amit\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4173e5c19029a7a035b349cd1afe7c58
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+2021-09-21 12:59:07 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2021-09-21 12:59:13 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2021-09-21 12:59:18 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2021-09-21 12:59:25 INFO  Login:126 - Step:4 PASSED- user enter testb010ll4@gmail.com as email
+2021-09-21 12:59:27 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2021-09-21 12:59:29 INFO  Login:151 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Amit\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d16005ecb02e416bd7d932dc833924e0
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
